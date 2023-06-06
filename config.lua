@@ -16,7 +16,7 @@ require("presence").setup({
     css = { "CSS", "https://raw.githubusercontent.com/Ja1z666/lvim_discord_presence/main/assets/css.png?token=GHSAT0AAAAAACCJWSZ2OQGH372CL3NWZLE6ZD7PBSQ" },
     go = { "GO", "https://raw.githubusercontent.com/Ja1z666/lvim_discord_presence/main/assets/go.png?token=GHSAT0AAAAAACCJWSZ336PYXBFFZBF3JHG4ZD7PCFA" },
     html = { "HTML", "https://raw.githubusercontent.com/Ja1z666/lvim_discord_presence/main/assets/html.png?token=GHSAT0AAAAAACCJWSZ3MR27DQSVFXLKW734ZD7PC2Q" },
-    lua = { "Lua", "https://raw.githubusercontent.com/Ja1z666/lvim_discord_presence/main/lua.png?token=GHSAT0AAAAAACCJWSZ3CKFFGXWT7MZ7PVF6ZD7NYAA" },
+    lua = { "Lua", "https://raw.githubusercontent.com/Ja1z666/lvim_discord_presence/main/assets/lua.png" },
     markdown = { "Markdown", "https://raw.githubusercontent.com/Ja1z666/lvim_discord_presence/main/assets/markdown.png?token=GHSAT0AAAAAACCJWSZ3U7W7HRU74WOX5DLAZD7PDQQ" },
     rs = { "Rust", "https://raw.githubusercontent.com/Ja1z666/lvim_discord_presence/main/assets/rust.png?token=GHSAT0AAAAAACCJWSZ33YICLURDLUMVF3F4ZD7PEKA" },
   },                         -- Custom file asset definitions keyed by file names and extensions (see default config at `lua/presence/file_assets.lua` for reference)
