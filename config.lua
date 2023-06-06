@@ -11,14 +11,14 @@ require("presence").setup({
   blacklist           = {},                         -- A list of strings or Lua patterns that disable Rich Presence if the current file name, path, or workspace matches
   buttons             = true,                       -- Configure Rich Presence button(s), either a boolean to enable/disable, a static table (`{{ label = "<label>", url = "<url>" }, ...}`, or a function(buffer: string, repo_url: string|nil): table)
   file_assets         = {
-    cpp = { "C++", "https://raw.githubusercontent.com/Ja1z666/lvim_discord_presence/main/assets/cpp.png?token=GHSAT0AAAAAACCJWSZ2NMELBMEGUEVELUJ6ZD7O7IQ" },
-    cs = { "C#", "https://raw.githubusercontent.com/Ja1z666/lvim_discord_presence/main/assets/csharp.png?token=GHSAT0AAAAAACCJWSZ2TSGLN65LIEOW2WZSZD7PA4A" },
-    css = { "CSS", "https://raw.githubusercontent.com/Ja1z666/lvim_discord_presence/main/assets/css.png?token=GHSAT0AAAAAACCJWSZ2OQGH372CL3NWZLE6ZD7PBSQ" },
-    go = { "GO", "https://raw.githubusercontent.com/Ja1z666/lvim_discord_presence/main/assets/go.png?token=GHSAT0AAAAAACCJWSZ336PYXBFFZBF3JHG4ZD7PCFA" },
-    html = { "HTML", "https://raw.githubusercontent.com/Ja1z666/lvim_discord_presence/main/assets/html.png?token=GHSAT0AAAAAACCJWSZ3MR27DQSVFXLKW734ZD7PC2Q" },
+    cpp = { "C++", "https://raw.githubusercontent.com/Ja1z666/lvim_discord_presence/main/assets/cpp.png" },
+    cs = { "C#", "https://raw.githubusercontent.com/Ja1z666/lvim_discord_presence/main/assets/csharp.png" },
+    css = { "CSS", "https://raw.githubusercontent.com/Ja1z666/lvim_discord_presence/main/assets/css.png" },
+    go = { "GO", "https://raw.githubusercontent.com/Ja1z666/lvim_discord_presence/main/assets/go.png" },
+    html = { "HTML", "https://raw.githubusercontent.com/Ja1z666/lvim_discord_presence/main/assets/html.png" },
     lua = { "Lua", "https://raw.githubusercontent.com/Ja1z666/lvim_discord_presence/main/assets/lua.png" },
-    markdown = { "Markdown", "https://raw.githubusercontent.com/Ja1z666/lvim_discord_presence/main/assets/markdown.png?token=GHSAT0AAAAAACCJWSZ3U7W7HRU74WOX5DLAZD7PDQQ" },
-    rs = { "Rust", "https://raw.githubusercontent.com/Ja1z666/lvim_discord_presence/main/assets/rust.png?token=GHSAT0AAAAAACCJWSZ33YICLURDLUMVF3F4ZD7PEKA" },
+    markdown = { "Markdown", "https://raw.githubusercontent.com/Ja1z666/lvim_discord_presence/main/assets/markdown.png" },
+    rs = { "Rust", "https://raw.githubusercontent.com/Ja1z666/lvim_discord_presence/main/assets/rust.png" },
   },                         -- Custom file asset definitions keyed by file names and extensions (see default config at `lua/presence/file_assets.lua` for reference)
   show_time           = true,                       -- Show the timer
 
