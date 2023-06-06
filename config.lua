@@ -110,9 +110,6 @@ require("presence").setup({
     ipynb = { "Jupyter Notebook", "https://raw.githubusercontent.com/Ja1z666/lvim_discord_presence/main/assets/jupyter.png" },
     ex = { "Elixir", "https://raw.githubusercontent.com/Ja1z666/lvim_discord_presence/main/assets/elixir.png" },
     postcss = { "PostCSS", "https://raw.githubusercontent.com/Ja1z666/lvim_discord_presence/main/assets/postcss.png" },
-        
-        
-        
   },                         -- Custom file asset definitions keyed by file names and extensions (see default config at `lua/presence/file_assets.lua` for reference)
   show_time           = true,                       -- Show the timer
 
